@@ -147,19 +147,6 @@ const Header: React.FC<HeaderProps> = (props) => {
           actions={[
             {
               content: (
-                <a
-                  className="left"
-                  href={`https://github.com/paljs/nextjs-admin-template`}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span className="github">Support us in GitHub</span>
-                  <img src={`https://badgen.net/github/stars/paljs/nextjs-admin-template`} />
-                </a>
-              ),
-            },
-            {
-              content: (
                 <a href="https://discord.gg/NRmdvDxsT8" target="_blank" rel="noreferrer">
                   <img height="20" src="/discord.svg" alt="slack" />
                 </a>
@@ -182,7 +169,7 @@ const Header: React.FC<HeaderProps> = (props) => {
                   ]}
                   Link={Link}
                 >
-                  <User image="url('/icons/icon-72x72.png')" name="Ahmed Elywa" title="Manger" size="Medium" />
+                  <User image="url('/icons/icon-72x72.png')" name="Smartguy" title="Manger" size="Medium" />
                 </ContextMenu>
               ),
             },
